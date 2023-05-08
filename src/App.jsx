@@ -38,6 +38,8 @@ const App = () => {
       window.alert("Enter rating");
     } else if (rating) {
       window.alert("Enter title");
+    } else {
+      window.alert("Enter title and rating");
     }
   };
   /* Deletes a movie from the list based on its unique id. */
